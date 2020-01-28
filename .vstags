@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Compiler::TokenParseRules	lib/Compiler/TokenParseRules.pm	1;"	p
+Compiler::TokenParseRules::BlockLevel	lib/Compiler/TokenParseRules/BlockLevel.pm	1;"	p
+Compiler::TokenParseRules::BlockLevel::handle_token	lib/Compiler/TokenParseRules/BlockLevel.pm	13;"	s
+Compiler::TokenParseRules::BlockLevel::init_state	lib/Compiler/TokenParseRules/BlockLevel.pm	7;"	s
+Compiler::TokenParseRules::PackageName	lib/Compiler/TokenParseRules/PackageName.pm	1;"	p
+Compiler::TokenParseRules::PackageName::init_state	lib/Compiler/TokenParseRules/PackageName.pm	8;"	s
+Compiler::TokenParseRules::Rule	lib/Compiler/TokenParseRules/Rule.pm	1;"	p
+Compiler::TokenParseRules::Rule::apply	lib/Compiler/TokenParseRules/Rule.pm	8;"	s
+Foo::Bar	t/data/blocked.pl	3;"	p
+Foo::Bar	t/data/simple.pl	2;"	p
+Foo::Hoge	t/data/blocked.pl	21;"	p
+_name::before_handle	lib/Compiler/TokenParseRules/PackageName.pm	16;"	s
+_name::handle_token	lib/Compiler/TokenParseRules/PackageName.pm	21;"	s
+apply	lib/Compiler/TokenParseRules/Rule.pm	8;"	s
+before_handle	lib/Compiler/TokenParseRules/PackageName.pm	16;"	s
+handle_token	lib/Compiler/TokenParseRules/BlockLevel.pm	13;"	s
+handle_token	lib/Compiler/TokenParseRules/PackageName.pm	21;"	s
+ild::Tiny::sum	t/data/blocked.pl	10;"	s
+init_state	lib/Compiler/TokenParseRules/BlockLevel.pm	7;"	s
+init_state	lib/Compiler/TokenParseRules/PackageName.pm	8;"	s
+oge"::sum	t/data/simple.pl	9;"	s
+sum	t/data/blocked.pl	10;"	s
+sum	t/data/simple.pl	9;"	s
+to_hash	t/data/blocked.pl	26;"	s
+y::to_hash	t/data/blocked.pl	26;"	s
