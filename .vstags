@@ -15,8 +15,16 @@ Compiler::TokenParseRules::Rule::apply	lib/Compiler/TokenParseRules/Rule.pm	8;"	
 Foo::Bar	t/data/blocked.pl	3;"	p
 Foo::Bar	t/data/simple.pl	2;"	p
 Foo::Hoge	t/data/blocked.pl	21;"	p
+_apply_namespace_definition_tokens	lib/Compiler/TokenParseRules/PackageName.pm	99;"	s
+_extract_namespace_definition_tokens	lib/Compiler/TokenParseRules/PackageName.pm	65;"	s
+_fill_package	lib/Compiler/TokenParseRules/PackageName.pm	94;"	s
+_name::_apply_namespace_definition_tokens	lib/Compiler/TokenParseRules/PackageName.pm	99;"	s
+_name::_extract_namespace_definition_tokens	lib/Compiler/TokenParseRules/PackageName.pm	65;"	s
+_name::_fill_package	lib/Compiler/TokenParseRules/PackageName.pm	94;"	s
+_name::after_handle	lib/Compiler/TokenParseRules/PackageName.pm	53;"	s
 _name::before_handle	lib/Compiler/TokenParseRules/PackageName.pm	16;"	s
 _name::handle_token	lib/Compiler/TokenParseRules/PackageName.pm	21;"	s
+after_handle	lib/Compiler/TokenParseRules/PackageName.pm	53;"	s
 apply	lib/Compiler/TokenParseRules/Rule.pm	8;"	s
 before_handle	lib/Compiler/TokenParseRules/PackageName.pm	16;"	s
 handle_token	lib/Compiler/TokenParseRules/BlockLevel.pm	13;"	s
